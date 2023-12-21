@@ -10,14 +10,15 @@ body *{
   font-family: 'Dosis', sans-serif;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
+  text-align: center;
 }
 
 /* box main */
 
 #main {
-  text-align: center;
+  /* text-align: center; */
   border: #3F3D56 1px solid;
-  margin: 74px auto 74px;
+  margin: 64px auto 74px;
   /* padding-top: 64px;
   padding-bottom: 64px; */
   width: 626px;
@@ -34,6 +35,8 @@ body *{
   height: 238px;
   padding-bottom: 32px;
 }
+
+
 /* Fontes */
 
 #main h1 {
@@ -53,13 +56,68 @@ body *{
 }
 
 #main p {
+  display: inline-table;
+  border: #3F3D56 1px solid;
+  
+  color: #828282;
+  font-family: 'open sans';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+
+  width: 540px;
+  height: 107px;
+
+}
+
+#main p1 {
+  /* display: inline-table; */
+  border: #3F3D56 1px solid;
   text-align: center;
+  margin: 32px auto;
 
   color: #828282;
   font-family: 'open sans';
   font-size: 15px;
-  font-style: normal;
   font-weight: 400;
   line-height: 22px;
 
+  width: 626px;
+  height: 21px;
+}
+
+#main strong {
+  color: #3F3D56;
+}
+
+/* linha */
+
+#line {
+  width: 391px;
+  height: 0px;
+  margin: auto;
+  border: 1px solid #ECEFF2;
+  
+}
+
+
+#footer a {
+  
+  
+  color: #3F3D56;
+  font-size: 15px;
+  line-height: 147px;
+  font-weight: bold;
+  font-family: 'Open Sans'
+  
+  
+}
+
+#footer a + a {
+  margin-left: 42px;
+}
+
+#footer img {
+  width: 100vw;
+  height: 104px;
 }
